@@ -23,7 +23,7 @@ feign:
     enabled: true
 spring:
   rabbitmq:
-    host: 192.168.232.132
+    host: 192.168.232.135
     username: admin
     password: 1111
     virtual-host: /
