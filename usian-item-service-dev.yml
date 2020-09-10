@@ -50,3 +50,10 @@ ITEM_INFO_EXPIRE: 86400
 SETNX_LOCK_KEY: SETNX_BASC_LOCK_KEY
 SETNX_DESC_LOCK_KEY: SETNX_DESC_LOCK_KEY
 SETNX_PARAM_LOCK_KEY: SETNX_PARAM_LOCK_KEY
+
+spring:
+  rabbitmq:
+    host: 192.168.232.135
+    username: admin
+    password: 1111
+    virtual-host: /
